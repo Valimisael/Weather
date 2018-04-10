@@ -1,0 +1,45 @@
+body {
+  font-family: "Cookie", cursive;
+  color: #fff;
+  font-size: 1.5em;
+  width: 100%;
+  box-sizing: border-box; }
+  body .wrapper {
+    width: inherit; }
+    body .wrapper .weatherWidget {
+      width: 20%;
+      padding: 1em;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #333;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 16px 1px #333333; }
+      body .wrapper .weatherWidget .widgetBlock {
+        margin-top: 1.5em; }
+        body .wrapper .weatherWidget .widgetBlock .info {
+          display: inline-block;
+          width: 33%; }
+  body footer {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, -5px);
+    color: #333; }
+
+@media screen and (max-width: 1200px) {
+  body .wrapper .weatherWidget {
+    width: 30%; } }
+@media screen and (max-width: 992px) {
+  body .wrapper .weatherWidget {
+    width: 40%; } }
+@media screen and (max-width: 768px) {
+  body .wrapper .weatherWidget {
+    width: 50%; } }
+@media screen and (max-width: 576px) {
+  body .wrapper .weatherWidget {
+    width: 60%; } }
+
+/*# sourceMappingURL=styles.css.map */
